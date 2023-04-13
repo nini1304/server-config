@@ -2,7 +2,7 @@ currency:
   url: ${API_URL:https://api.apilayer.com/exchangerates_data/convert}
   api_key: ${API_KEY:bOv9VzwtvbtNuPhxLT3oZ5Xat8qE8ufB}
 server:
-  port: 9090
+  port: '{cipher}d67097c83cd5e279d7002fc6f0e278e0a992c5242094c67b08f182c046c6c4bd'
 
 spring:
   datasource:
