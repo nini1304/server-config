@@ -9,7 +9,7 @@ spring:
     type: org.postgresql.jdbc2.optional.SimpleDataSource
     username: ${USER_NAME:'{cipher}df277b801774d5071cf52a505e963ad78ee15e5d6c47953880595c2b84179c7d'}
     password: ${PASSWORD:'{cipher}2e115a6d1605da36bde22a1795a83f42a495128032ad9e9b0c3713e959b7a4f7ee0ff1eca3e885334e537dbce1e1bb52'}
-    url: ${URL:'{cipher}c6da612268cf9da8da406b4e82863d9a17e66534eabbe8a81da4310bb3beda56fd5b5a4b1accc7cf86a4c085e28da5055ed0eabf55c1bf0eee8a2ce11908ea97'}
+    url: ${URL:jdbc:'{cipher}8de617d7f495db29ca0c4f300b80a071ef37e496dfd7371ccb4251ec42387de370fffa691ea841daae1db252f8a6ba84493fa8f93c2b2bf07c4e907ee1968001'}
   config:
     import: optional:file:.env[.properties]
   jpa:
