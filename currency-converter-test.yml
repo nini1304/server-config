@@ -7,8 +7,8 @@ server:
 spring:
   datasource:
     type: org.postgresql.jdbc2.optional.SimpleDataSource
-    username: ${USER_NAME:postgres}
-    password: ${PASSWORD:mysecretpassword}
+    username: ${USER_NAME:'{cipher}508c99ec574a0ab36aa5d8faf877bab458f2bf31e526780734ae94856e3f06be'
+    password: ${PASSWORD:'{cipher}78c097136aca54e15167232e22f5e50316464c477b4150d57d2752a0f2b9fd5eec73cff71de42662afbabfe86512d25e'
     url: ${URL:jdbc:postgresql://localhost:5431/postgres}
   config:
     import: optional:file:.env[.properties]
