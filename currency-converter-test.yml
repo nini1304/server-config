@@ -1,27 +1,27 @@
 currency:
-  url: ${API_URL:https://api.apilayer.com/exchangerates_data/convert}
-  api_key: ${API_KEY:bOv9VzwtvbtNuPhxLT3oZ5Xat8qE8ufB}
+  url: ${API_URL:'{cipher}0c8701e970504b229748db1eb9b43794df68823623ee427720b15322fe5435f344955b2a064ba303e1d387f279f2ba687bd0532adc7d51d11a89ff730b133c9ec410b4d7bcf14aaa2453b9ec46097b51'}
+  api_key: ${API_KEY:'{cipher}a040606b2d8bccd5bd614d9c67b03bc66b62fb5eefbf278488455efd61d2c76b601b79302e6057b5909c9853e7418a526e5d82761988cbce056938cfc4e16d4e'}
 server:
-  port: 9090
+  port: '{cipher}d76c0e76741f0f3c5662dde19d593a1d8901af734e2fb96fa4a01e13cf46c338'
 
 spring:
   datasource:
     type: org.postgresql.jdbc2.optional.SimpleDataSource
-    username: ${USER_NAME:postgres}
-    password: ${PASSWORD:mysecretpassword}
-    url: ${URL:jdbc:postgresql://localhost:5431/postgres}
+    username: ${USER_NAME:'{cipher}df277b801774d5071cf52a505e963ad78ee15e5d6c47953880595c2b84179c7d'}
+    password: ${PASSWORD:'{cipher}2e115a6d1605da36bde22a1795a83f42a495128032ad9e9b0c3713e959b7a4f7ee0ff1eca3e885334e537dbce1e1bb52'}
+    url: ${URL:'{cipher}c6da612268cf9da8da406b4e82863d9a17e66534eabbe8a81da4310bb3beda56fd5b5a4b1accc7cf86a4c085e28da5055ed0eabf55c1bf0eee8a2ce11908ea97'}
   config:
     import: optional:file:.env[.properties]
   jpa:
     hibernate:
       ddl-auto: update
   application:
-    name: currency-converter
+    name: '{cipher}a5870fa586d5f1b1d1ff639176375e5035aede4dc83d745a620563f3360c231c701bf50351f032bb866c36c7a6fa3834'
 keycloak:
-  auth-server-url: http://172.18.11.66:8081
+  auth-server-url: '{cipher}d32ac1387ddd097fc84513c248eaaac93718315bf90f66dcee38796ead337e009c236ea80dbb479d2f6021d9e9afc4cf'
   autodetect-bearer-only: true
   credentials:
-    secret: 9nEENJr9g99XpUaze5ozJXBm59LofpX0
+    secret: '{cipher}99ca5c68272b5accdd73aa14d09370f02ac398f0b0c76fb4fb0b2f4ac465f4a7a2e14b9bd0793bfc3719e215413e66ded345c16abe85f6f24ef90f1e277aaa70'
   realm: software
   ssl-required: none
   resource: backend
